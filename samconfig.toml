@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "demo-lambda"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-7kxvdc3h5gfx"
+s3_prefix = "demo-lambda"
+region = "ap-south-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = []
